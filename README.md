@@ -42,34 +42,34 @@ pip install Flask pandas transformers tensorflow
 
 ### 1. Individual Sales Representative Performance
 
-URL: /api/rep_performance
-Method: GET
-Query Parameters: rep_id( The employee ID of the sales representative.)
-example: http://127.0.0.1:3400/api/rep_performance?rep_id=183
+-URL: /api/rep_performance
+-Method: GET
+-Query Parameters: rep_id( The employee ID of the sales representative.)
+-example: http://127.0.0.1:3400/api/rep_performance?rep_id=183
 
 
 ### 2. Team Performance Summary
 
-URL: /api/team_performance
-Method: GET
-example: http://127.0.0.1:3400/api/team_performance
+-URL: /api/team_performance
+-Method: GET
+-example: http://127.0.0.1:3400/api/team_performance
 
 
 ### 3. Performance Trends and Forecasting
 
-URL: /api/performance_trends
-Method: GET
-Query Parameters:
-time_period: Either monthly or quarterly.
-example: http://127.0.0.1:3300/api/performance_trends?time_period=monthly
+-URL: /api/performance_trends
+-Method: GET
+-Query Parameters:
+-time_period: Either monthly or quarterly.
+-example: http://127.0.0.1:3300/api/performance_trends?time_period=monthly
 
 
 ## Technologies Used
 
-Flask
-pandas
-Hugging Face Transformers: Used for the GPT-2 text generation model for generating feedback and forecasts.
-TensorFlow: Included for logging and managing verbosity.
+-Flask
+-pandas
+-Hugging Face Transformers: Used for the GPT-2 text generation model for generating feedback and forecasts.
+-TensorFlow: Included for logging and managing verbosity.
 
 
 
