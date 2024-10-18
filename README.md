@@ -19,16 +19,12 @@ Before running this project, ensure you have the following installed:
 
 1. Clone the repository: git clone https://github.com/marukh197/sales-performance-analysis
   	
-
 2. Navigate to the project directory: cd sales-performance-api
-	
 
-3. Create and activate a virtual environment:   conda create --name sales_api_env python=3.8
-						conda activate sales_api_env
+3. Install the required dependencies:  pip install -r requirements.txt
 
-4.Install the required dependencies:  pip install -r requirements.txt
-
-5. Place the sales_performance_data.csv file in the project directory.				
+4. Place the sales_performance_data.csv file in the project directory.
+			
 -----------------------------------------------------------------------------------
 Alternatively, you can manually install the packages:
 
@@ -37,9 +33,9 @@ pip install Flask pandas transformers tensorflow
 
 ## How to Run
 
-1.open jupyter-notebook
-2.run app.ipynb
-3.application will start on http://127.0.0.1:3500 (you can change the port)
+1. open jupyter-notebook
+2. run app.ipynb
+3. application will start on http://127.0.0.1:3500 (you can change the port)
 
 
 ## API Endpoints
